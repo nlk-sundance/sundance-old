@@ -83,7 +83,7 @@
                     <p>&#169;<?php echo date('Y'); ?> Sundance Spas-all right reserved</p>
                 </div>
                 <div class="clear"></div>
-        </div>  
+        </div>
         <?php /*
         <div class="inner">
             <div class="logo">

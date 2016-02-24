@@ -17,8 +17,29 @@
         <div class="logo">
             <h1><a href="<?php bloginfo('url'); ?>">Sundance Spas&reg;</a></h1>
         </div>
-        <?php wp_nav_menu( array( 'container' => 'false', 'menu_class' => 'topMenu', 'theme_location' => 'topres' ) ); ?>
-        <?php get_template_part( 'block', 'mainmenu' ); ?>
+        <?php /*wp_nav_menu( array( 'container' => 'false', 'menu_class' => 'topMenu', 'theme_location' => 'topres' ) ); ?>
+        <?php get_template_part( 'block', 'mainmenu' );*/ ?>
+        <ul class="toplist">
+            <li class="listborder"><a href="<?php bloginfo('url'); ?>/request-literature/">Free Brochure</a></li>
+            <li><a href="<?php bloginfo('url'); ?>/hot-tub-dealer-locator/">Nearest Dealer</a></li>
+            <li>
+                <form id="dealer-finder" method="post" action="<?php bloginfo('url'); ?>/hot-tub-dealer-locator/cities/">
+                    <input type="text" class="zip btn-start" name="zip" id="zip" placeholder="zip/postal code" />
+                    <input name="zipcodeSearch" value="1" type="hidden">
+                </form>
+            </li>
+        </ul>
+        <?php 
+            wp_nav_menu( array(
+                'menu'       => 'mainmenu',
+                'depth'      => 2,
+                'container'  => false,
+                'menu_class' => 'mainMenu',
+                'fallback_cb' => 'wp_page_menu',
+                //Process nav menu using our custom nav walker
+                'walker' => new wp_bootstrap_navwalker())
+            ); 
+        ?>
     </div>
 </div>
 
@@ -39,6 +60,48 @@
 <div class="ft">
     <div class="wrap">
         <div class="inner">
+                <div class="col-8">
+                    <h1 class="smalllogo"><a href="<?php bloginfo('url'); ?>">logo</a></h1>
+                </div>
+                <div class="col-4">
+                        <ul class="footericon">
+                            <li class="facebook"><a href="http://www.facebook.com/SundanceSpas">facebook</a></li>
+                            <li class="twitter"><a href="http://twitter.com/sundance_spas">twitter</a></li>
+                            <li class="youtube"><a href="http://www.youtube.com/sundancespas">youtube</a></li>
+                            <li class="google"><a href="https://plus.google.com/107104241400965217576">google</a></li>
+                        </ul>
+                </div>
+                <div class="clear"></div>
+                <div class="col-12">
+                    <ul class="spa">
+                        <li class="border" ><a href="<?php bloginfo('url'); ?>/hot-tubs-and-spas/">Tubs</a></li>
+                        <li class="border"><a href="<?php bloginfo('url'); ?>/accessories/">Spa Accessories</a></li>
+                        <li class="border"><a href="<?php bloginfo('url'); ?>/get-a-quote/">Get Pricing</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/customer-care/">Owners</a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+                <div class="col-12">
+                    <ul class="footer-links">
+                        <li class="border"><a href="<?php bloginfo('url'); ?>">Home</a></li>
+                        <li class="border"><a href="<?php bloginfo('url'); ?>/about-us/">About Us</a></li>
+                        <li class="border"><a href="<?php bloginfo('url'); ?>/about-us/press-room/">Press room</a></li>
+                        <li class="border"><a href="<?php bloginfo('url'); ?>/become-a-dealer/">Become a Dealer</a></li>
+                        <li class="border"><a href="<?php bloginfo('url'); ?>/#resources">Resources</a></li>
+                        <li class="border"><a href="<?php bloginfo('url'); ?>/contact/">Contact</a></li>
+                        <li class="border"><a href="<?php bloginfo('url'); ?>/customer-care/">Warrenty/Registration</a></li>
+                        <li class="border"><a href="<?php bloginfo('url'); ?>/about-us/privacy-policy/">Policies</a></li>
+                        <li><a href="<?php bloginfo('url'); ?>/site-map/">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>   
+                <div class="col-12">
+                    <p>&#169;<?php echo date('Y'); ?> Sundance Spas-all right reserved</p>
+                </div>
+                <div class="clear"></div>
+        </div>
+        <?php /*
+        <div class="inner">
             <div class="logo">
                 <p><br /><?php echo date('Y'); ?> all rights reserved</p>
             </div>
@@ -51,6 +114,7 @@
             </div>
             <br class="clear" />
         </div>
+        */ ?>
     </div>
 </div>
 
