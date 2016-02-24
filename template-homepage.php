@@ -92,8 +92,8 @@ get_header('bootstrap'); ?>
   					<img class="img-responsive" src="<?php bloginfo('template_url'); ?>/bootstrap/images/truck.png">
   				</div>
   				<div class="col-xs-12 col-sm-7 col-md-5">
-  					<h1>Truckload <span>Savings Event</span></h1>
-  					<p>Take Advantage of the season's best discounts!</p>
+  					<h1><span>Truckload Savings Event</span></h1>
+  					<p>Take advantage of the season's best discounts!</p>
   				</div>
   				<div class="col-xs-12 col-sm-12 col-md-4 dreambtncont text-center">
   					<a href="#" class="btn btn-primary btn-blue btn-big">GET THE SPA OF YOUR DREAMS</a>
@@ -138,7 +138,7 @@ get_header('bootstrap'); ?>
 	  				<div class="col-xs-12 col-sm-6 col-md-6">
 	  					<div class="row">
 	  						<div class="col-xs-12"> 					
-	  						<p><span>YOU CAN BELIEVE IN A SUNDANCE<sup>&reg;</sup> SPA.</span> Established in 1979, Sundance Spas has been recognized internationally with more awards and honors than any other spa company. our exclusive components, processes, and features include the famous line of potented Fluidix<sup>&trade;</sup> jets. We are committed to using environmentally sale equipment and practices. Read about our distinguished history of spa innovation in the Sundance Spas brochure.</p>
+	  						<p><span>YOU CAN BELIEVE IN A SUNDANCE<sup>&reg;</sup> SPA.</span> Established in 1979, Sundance Spas has been recognized internationally with more awards and honors than any other spa company. our exclusive components, processes, and features include the famous line of patented Fluidix<sup>&trade;</sup> jets. We are committed to using environmentally sale equipment and practices. Read about our distinguished history of spa innovation in the Sundance Spas brochure.</p>
 	  					</div>
 	  					</div> 					
 	  					<div class="row">
