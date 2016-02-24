@@ -57,7 +57,8 @@ get_header('bootstrap'); ?>
 	  							<li>Test spas wet and dry</li>
   							</ul>
   							<form id="dealer-finder" method="post" action="<?php bloginfo('url'); ?>/hot-tub-dealer-locator/cities/">
-  								<input type="firstname" class="form-control" name="zip" id="zip" placeholder=" Enter your zip code">
+  								<input type="firstname" class="form-control" name="zip" id="zip" placeholder=" Enter your zip code"/>
+                  <input name="zipcodeSearch" value="1" type="hidden"/>
   								<button type="submit" class="blue btn-start">LOCATE DEALER</button>
   							</form>
   						</div>
