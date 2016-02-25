@@ -97,7 +97,7 @@ get_header('bootstrap'); ?>
   					<p>Take advantage of the season's best discounts!</p>
   				</div>
   				<div class="col-xs-12 col-sm-12 col-md-4 dreambtncont text-center">
-  					<a href="#" class="btn btn-primary btn-blue btn-big">GET THE SPA OF YOUR DREAMS</a>
+  					<a href="/truckload/" class="btn btn-primary btn-blue btn-big">GET THE SPA OF YOUR DREAMS</a>
   				</div>
   			</div>
   		</div>
@@ -105,14 +105,9 @@ get_header('bootstrap'); ?>
   	<section class="wrapper groupcontainer">
   		<div class="container bigcontainer">
   			<div class="row">
-  				<div class="col-xs-12 col-sm-4 col-md-4 shawor">
-  					  			
-  				</div>
-  				<div class="col-xs-12 col-sm-4 col-md-4 iphone">
-  					</div>
-  				<div class="col-xs-12 col-sm-4 col-md-4 bed">
-	  				 
-  				</div>
+  				<a href="/hydrotherapy-spa/"><div class="col-xs-12 col-sm-4 col-md-4 shawor"></div></a>
+  				<a href="/features/sunsmart/"><div class="col-xs-12 col-sm-4 col-md-4 iphone"></div></a>
+  				<a href="/difference/warranty/"><div class="col-xs-12 col-sm-4 col-md-4 bed"></div></a>
   			</div>
   			<div class="row hydrotherapy">
   				<div class="col-xs-12 col-sm-4 col-md-4">
