@@ -13,7 +13,6 @@
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <title>
 	<?php wp_title( '' ); ?>
 	<?php
